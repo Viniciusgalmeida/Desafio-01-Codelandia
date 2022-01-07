@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Desafio 01 - Codelândia</title>
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style_desafio1.css">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <nav class="header__title">
+                <a class="header__text" href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=139%3A51">Codelândia </a>
+                <a class="header__text" href="#">blog </a>
+            </nav>
 
-	<body>
-		<header>
-			<div>				
-				<h1>Codelândia</h1>
-				<h2>blog</h2>
-				<article>
-					<input type="text" placeholder="🔍 Pesquisar no blog">
-				</article>
-			</div>
-		</header>
-		<main>
-			<section>
-				<h3>02 de jul, 2021 </h3>
-				<td><button class="botao" onclick="clean()">❤</button></td>
-				<div class="texto">
-					<h5>Agora é oficial: o Windows 11 está vindo</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
-				</div>
-			</section>
-			
-		</main>
-		<footer>
-
-		</footer>
-	</body>
+        </div>
+        <div>
+            <input class="search" type="text" placeholder="Pesquisar no blog" color="white" style="color: white;">
+            <img class="search__lupa" src="lupa.svg" alt="imagem de uma lupa" >
+        </div>
+    </header>
+    <main>
+        <ul style="list-style: none;">
+            <li class="component">
+                <div class="component__data">
+                    <p class="component__text">02 de jul, 2021</p>
+                    <img class="component__button" src="heart.svg">                 
+                </div>
+                <h1 class="component__title">Agora é oficial: o Windows 11 está vindo</h1>
+                <p class="component__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+            </li>
+            <li class="component">
+                <div class="component__data">
+                    <p class="component__text">02 de jul, 2021</p>
+                    <img class="component__button" src="heart.svg">
+                </div>
+                <h1 class="component__title">Tim Berners-Lee vai leiloar código-fonte da web</h1>
+                <p class="component__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+            </li>
+            <li class="component">
+                <div class="component__data">
+                    <p class="component__text">02 de jul, 2021</p>
+                    <img class="component__button" src="heart.svg">
+                </div>
+                <h1 class="component__title">Tem Firefox novo no pedaço e você vai
+                    quer migrar</h1>
+                <p class="component__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+            </li>
+            <li class="component">
+                <div class="component__data">
+                    <p class="component__text">02 de jul, 2021</p>
+                    <img class="component__button" src="heart.svg">
+                </div>
+                <h1 class="component__title">John MCAfee, criador do antivírus McAfee, morre</h1>
+                <p class="component__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+            </li>
+            
+        </ul>
+    </main>
+</body>
 </html>
-
-
