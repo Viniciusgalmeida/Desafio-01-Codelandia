@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(90deg , #574AE8 , #3EA1DB);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.header__title {
+    /* background: red; */
+    padding: 48px 4% 0 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 20%);
+    display: block;
+    margin: 41px 4% 0 4%;
+    width: 92%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 58px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.search__lupa {
+    position: absolute;
+    margin: -28px 0 0 5%;
+    width: 15.63px;
+    margin-left: calc(4% + 9.19px);
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+.component__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.component {
+    background-color: #ffffff;
+    margin: 25px 4% 25px 4%;
+    padding: 16px;
+    border-radius: 5px;
+
+}
+
+.component__text {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #717171;
+}
+
+.component__button {
+    width: 16px;
+}
+
+.component__title {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 27px;
+    margin-bottom: 9px;
+}
+
+@media screen and (min-width: 979px){
+    .header__title, .search, .component {
+        margin-left: calc((100% - 900px)/2);
+        width: 900px;
+    }
+
+    .header {
+        height: 250px;
+        margin-bottom: 100px;
+
+    }
+    
+    .header__title {
+        padding: 41px 0 0 0;
+    }
+
+    .header__text {
+        font-size: 24px;
+    }
+    
+
+    .search {
+        margin-top: 73px;
+        height: 65px;
+        padding-left: 64px;
+    }
+
+    ::placeholder {
+        font-size: 18px;
+    }
+
+    .search__lupa {
+        width: 23.44px;
+        position: absolute;
+        margin: -43px 0 0 5%;
+        margin-left: calc(((100% - 900px)/2) + 18px);
+    }
+    
+
+    .component {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .component__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .component__title {
+        font-size: 26px;
+        line-height: 32px;
+        margin-top: 22px;
+        margin-bottom: 9px;
+    }
+    
+}
