@@ -2,7 +2,7 @@
 
 # Desafio 01 Codelândia
 
-Trabalho desenvolvido para o Desafio 01 da Codelândia. O foco deste exercício foi o posicionamento de elementos e a aplicação do flexbox para a responsabilidade do site.
+Trabalho desenvolvido para o Desafio 01 da Codelândia. O foco deste exercício foi o posicionamento de elementos e a aplicação do flexbox para a responsividade do site.
 
 # Links
 
